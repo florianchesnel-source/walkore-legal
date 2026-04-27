@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Walkore — Supprimer mon compte et mes données</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { color: #115522; border-bottom: 2px solid #115522; padding-bottom: 8px; }
+  h2 { color: #115522; margin-top: 28px; }
+  code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 0.95em; }
+  ul { padding-left: 22px; }
+  .email { font-weight: bold; color: #115522; }
+  .updated { color: #888; font-size: 0.9em; margin-top: 40px; padding-top: 16px; border-top: 1px solid #eee; }
+</style>
+</head>
+<body>
+
+<h1>Supprimer mon compte et mes données — Walkore</h1>
+
+<p>Walkore n'utilise pas de système d'inscription traditionnel. Aucune adresse e-mail, mot de passe ou nom d'utilisateur n'est requis. Un identifiant anonyme est généré automatiquement à l'installation pour permettre la synchronisation cloud de votre progression.</p>
+
+<h2>Données stockées</h2>
+<ul>
+  <li>Identifiant joueur anonyme (UUID auto-généré localement)</li>
+  <li>Pseudo affiché (si vous en avez choisi un)</li>
+  <li>Progression de jeu : pas effectués, créatures collectées, missions, badges, échanges</li>
+  <li>Code de récupération à 12 caractères (lié à votre identifiant)</li>
+</ul>
+
+<p>Aucune donnée personnelle directement identifiante n'est collectée (pas de nom réel, e-mail, téléphone, photo, ni position GPS stockée).</p>
+
+<h2>Procédure de suppression</h2>
+
+<h3>Option 1 — Désinstallation simple (effacement local uniquement)</h3>
+<p>Désinstaller Walkore depuis votre téléphone supprime toutes les données stockées localement. Les données cloud restent par défaut, pour vous permettre de restaurer votre progression si vous réinstallez l'application.</p>
+
+<h3>Option 2 — Suppression complète des données cloud</h3>
+<p>Pour effacer définitivement vos données du serveur, envoyez un e-mail à&nbsp;:</p>
+
+<p class="email">florianchesnel77@gmail.com</p>
+
+<p>avec pour objet&nbsp;: <code>Suppression compte Walkore</code></p>
+
+<p>et précisez votre <strong>code de récupération à 12 caractères</strong> (visible dans Walkore → Profil → Sauvegarde Cloud) ou votre <strong>pseudo de joueur</strong>.</p>
+
+<p>Les données seront supprimées sous 30 jours. Vous recevrez une confirmation par e-mail une fois la suppression effectuée.</p>
+
+<h2>Conservation des données après suppression</h2>
+<p>Aucune donnée nominative n'est conservée après suppression. Toutes les données associées à votre identifiant joueur sont effacées définitivement de Firebase Realtime Database.</p>
+
+<p>Des logs anonymes d'utilisation (sans identifiant joueur, à des fins statistiques agrégées) peuvent être conservés conformément à notre politique de confidentialité.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question concernant la suppression de vos données ou la protection de votre vie privée&nbsp;:</p>
+<p class="email">florianchesnel77@gmail.com</p>
+
+<p class="updated">Dernière mise à jour&nbsp;: avril 2026</p>
+
+</body>
+</html>
